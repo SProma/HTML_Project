@@ -1,0 +1,135 @@
+<!DOCTYPE html> <!--Chercher to-add pour trouver les valeurs à modifier-->
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"><title>Bug_Hunter</title>
+		<link rel="stylesheet" type="text/css" href="css/Menu.css"/>
+		<meta name="viewport" content="width=device-width" />
+	</head>
+
+	<body class="lang-fr">
+		<header>
+			<p>Bug_Hunter</p>
+			<p>BY Random's Ideas</p>
+		</header>
+
+		<div id="wrapper">
+			<nav id="sidebar">
+				 <ul>
+					<li><a href="./Accueuil.html">Accueuil</a></li>
+					<li><a href="./Contact.html">Contact</a></li>
+					<li><a href="./FAQ.html"> F.A.Q </a></li>
+					<li><a href="./Presse.html">Presse</a></li>
+					<li><a href="./Team.html">Team</a></li>
+					<li><a href="./NousRejoindre.html">Nous rejoindre</a></li>
+				 </ul>
+			</nav>
+
+			<div id="Corps">
+	
+				<form action="to-add" method="post"><!--Début du formulaire-->
+				<fieldset>
+					<legend>Informations personelles</legend>
+					
+					<div> 
+						<p>
+							<label for="nom">Nom*</label>
+							<input id="nom" name="idn" type="text" required>
+						</p>
+					</div>
+					
+					<div>
+						<p>
+							<label for="prénom">Prénom*</label>
+							<input id="prénom" name="idpr" type="text" required>
+						</p>
+					</div>
+					
+					<div>
+						<p>
+							<label for="email">Adresse mail*</label>
+							<input id="email" name="mail" type="email" placeholder="contact@mail.com" required>
+						</p>
+					</div>
+					
+					<div>
+						<p>
+							<label for="adress">Code postal</label>
+							<input id="adress" name="postal" type="number">
+						</p>
+					</div>
+					
+					<div>
+						<p>
+							<label for="to-add">to-add</label>
+							<input id="to-add" name="to-add" type="text" required>
+						</p>
+					</div>
+					
+					<div>
+						<label for="pays"><br>Pays*</label>
+						<select id="pays" required>
+							<option value="ge">Allemagne</option>
+							<option value="ch">Chine</option>
+							<option value="da">Danemark</option>
+							<option value="es">Espagne</option>
+							<option value="fi">Finlande</option> 
+							<option value="fr" selected>France</option>
+							<option value="uk">Royaume-Uni</option>
+							<option value="is">Islande</option>
+							<option value="it">Italie</option>
+							<option value="jp">Japon</option>
+							<option value="pt">Portugal</option>
+							<option value="ru">Russie</option>
+							<option value="su">Suède</option>
+							<option value="usa">États-Unis</option>
+						</select>
+						
+					</div>
+				</fieldset>
+				
+				<div>
+					<label for="socialnetw">Nos réseaux sociaux<label>
+					<a href="http://www.facebook.com"><img class="fb" src="img/fb.png" alt="Facebook"></a>
+					<a href="http://www.twitter.com"><img class="twt" src="img/tw.png" alt="Twitter"></a>
+				</div>
+
+
+				<label for="meet">Comment nous avez-vous connus ?</label>
+				<select id="meet" multiple>
+				  <option value="soc">Réseaux sociaux (Twitter, Facebook ...)</option> 
+				  <option value="ami">Amis, connaissance</option>
+				  <option value="ggl">Google</option>
+				  <option value="pub">Publicité</option>
+				  <option value="partn">Partenaires</option>
+				</select>
+
+				<div>
+					<label for="msg"><br>Commentaire</label>
+					<textarea name="msg" 
+					placeholder="What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little 'clever' comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo." 
+					rows="20" cols="80">
+					</textarea>
+				</div>
+
+				<div>
+					<label for="jour">A quel date préféreriez-vous être recontacté(e) ? </label>
+					<input type="date" name="jour"> 
+				</div>  
+			  
+			  
+			  
+			  
+			  
+				<input type="submit" value="Envoyer">
+				
+			</div>
+		</div>
+		
+		<footer id="footer">
+		  <p>Made on ðŸ’» by students for a project</p>
+		</footer>
+		
+	</body>
+</html>
+		
+		
